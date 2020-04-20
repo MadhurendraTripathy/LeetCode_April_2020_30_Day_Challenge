@@ -11,9 +11,9 @@ public:
 //driver code
 int main(){
 	ios_base::sync_with_stdio();//faster io
-  cin.tie(NULL);
-  cout.tie(NULL);
-  Solution s;
+	cin.tie(NULL);
+	cout.tie(NULL);
+	Solution s;
 	vector<int>nums = {4,1,2,1,2};
 	cout<<s.singleNumber(v)<<"\n";
 	return 0;
