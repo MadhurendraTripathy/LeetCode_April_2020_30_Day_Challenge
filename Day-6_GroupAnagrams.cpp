@@ -1,6 +1,5 @@
 class Solution {
 public:
-
     vector<vector<string>> groupAnagrams(vector<string>& strs) {
         vector<vector<string>> v;
         
@@ -22,7 +21,7 @@ public:
 
 //driver code
 int main(){
-    ios_base::sync_with_stdio();
+    ios_base::sync_with_stdio(false);
     cin.tie(NULL);
     cout.tie(NULL);
     Solution s;
