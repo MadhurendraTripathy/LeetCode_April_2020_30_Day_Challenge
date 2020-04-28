@@ -1,4 +1,5 @@
 #include<bits/stdc++.h>
+#define FAST_IO ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL);
 using namespace std;
 struct TreeNode {
    int val;
@@ -73,9 +74,7 @@ public:
 
 //driver code
 int main(){
-    ios_base::sync_with_stdio();
-    cin.tie(NULL);
-    cout.tie(NULL);
+    FAST_IO;
     Solution s;
     vector<int> v = {1,2,3,4,5,7,9,100,200,200,400,-1}; //{1,2,3,4,5};
     TreeNode *root = createTree(v);
