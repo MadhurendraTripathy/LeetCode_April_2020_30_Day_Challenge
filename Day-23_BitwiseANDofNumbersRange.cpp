@@ -12,13 +12,13 @@ public:
             n>>=1;
             m>>=1;
             count++;
-            cout<<m<<" "<<n<<"\n";
+            //cout<<m<<" "<<n<<"\n";
         }
         return m<<count;
     }
 };
 int main(){
-    ios_base::sync_with_stdio();cin.tie(NULL);cout.tie(NULL);
+    ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL);
     ull m,n;
     cin>>m>>n;
     Solution s;
