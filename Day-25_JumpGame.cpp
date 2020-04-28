@@ -1,5 +1,5 @@
 #include<bits/stdc++.h>
-#define FAST_IO ios_base::sync_with_stdio();cin.tie(NULL);cout.tie(NULL);
+#define FAST_IO ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL);
 using namespace std;
 
 class Solution {
