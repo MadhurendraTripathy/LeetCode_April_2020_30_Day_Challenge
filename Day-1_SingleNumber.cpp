@@ -12,7 +12,7 @@ public:
 };
 //driver code
 int main(){
-	ios_base::sync_with_stdio();//faster io
+	ios_base::sync_with_stdio(false);//faster io
 	cin.tie(NULL);
 	cout.tie(NULL);
 	Solution s;
