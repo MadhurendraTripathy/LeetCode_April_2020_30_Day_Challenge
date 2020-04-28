@@ -1,4 +1,5 @@
 #include<bits/stdc++.h>
+#define FAST_IO ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL);
 using namespace std;
 
 class MinStack {
@@ -39,6 +40,7 @@ public:
 
 //driver code;
 int main(){
+    FAST_IO;
     MinStack* obj = new MinStack();
     obj->push(-2);
     obj->push(0);
